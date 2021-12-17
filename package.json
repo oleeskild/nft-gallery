@@ -18,7 +18,6 @@
     "axios": "^0.24.0",
     "clean-css": "^4.2.3",
     "fs": "0.0.1-security",
-    "node-sass-promise": "^1.0.0",
     "path": "^0.12.7",
     "sass": "^1.45.0",
     "sass-loader": "^12.4.0"
