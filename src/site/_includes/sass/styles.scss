@@ -1,3 +1,69 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
 .content{
     display: flex;
+}
+
+.nft-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    .nft-image{
+        img{
+            border-radius: 25px;
+        }
+    }
+
+    .nft-description{
+        margin-left: 25px;
+    }
+}
+
+.header{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #000;
+    width: fit-content;
+}
+
+p{
+    font-size: 25px;
+}
+
+.nft-collection{
+    margin:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nft-entry{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    gap: 10px;
+    img{
+        border-radius: 25px;
+    }
+}
+
+.nft-description{
+    margin-bottom:50px;
 }

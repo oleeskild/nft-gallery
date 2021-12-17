@@ -11,7 +11,7 @@ module.exports = class {
   async data () {
     const rawFilepath = path.join(__dirname, `../_includes/sass/${fileName}`);
     return {
-      permalink: `css/styles.css`,
+      permalink: `nftcss/styles.css`,
       rawFilepath,
       rawCss: await fs.readFileSync(rawFilepath)
     };

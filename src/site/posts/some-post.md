@@ -1,5 +1,0 @@
----
-title: Some Post
----
-
-## Hello!

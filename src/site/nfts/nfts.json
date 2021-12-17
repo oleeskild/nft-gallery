@@ -1,0 +1,5 @@
+{
+    "layout" : "layouts/nfts.md",
+    "tags" : "nfts",
+    "templateEngineOverride": "njk,md"
+ }
