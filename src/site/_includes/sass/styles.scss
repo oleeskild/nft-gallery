@@ -14,7 +14,7 @@ h1{
     display: flex;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     h1 {
         font-size: 2rem;
     }
